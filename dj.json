@@ -2,8 +2,8 @@
 
 {
 
-//"spider":"http://ys-d.ysepan.com/621545042/119071824/r463N3G766JOHTNsGkjbd/wa2.0723.jar;md5;226db2fc833312b73b0bf57c7dd41484",
-"spider":"https://gitea.com/dongji2/ooo/raw/branch/main/wa2.0723.jar;md5;226db2fc833312b73b0bf57c7dd41484",
+"spider":"http://ys-d.ysepan.com/621545042/119071824/r463N3G766JOHTNsGkjbd/wa2.0723.jar;md5;226db2fc833312b73b0bf57c7dd41484",
+//"spider":"https://gitea.com/dongji2/ooo/raw/branch/main/wa2.0723.jar;md5;226db2fc833312b73b0bf57c7dd41484",
 
 "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9ub3RhYnVnLm9yZy9kb25namkyL3QvcmF3L21hc3Rlci9saS50eHQ="]}]}],
 
