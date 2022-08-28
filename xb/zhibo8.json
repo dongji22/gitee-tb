@@ -26,7 +26,7 @@
 	// 分类页地址 {cateId} 分类id {catePg} 当前页
     "cateUrl": "https://www.zhibo8.cc/",
 	// 同上面的homeVod字段 分类列表中的视频信息
-	"cateVodNode": "//a[contains(text(),'手机看直播')]/parent::li",
+	"cateVodNode": "//li[@id='saishi967097']",
     //"cateVodName": "/li[@class='lab_events']/span/text()",
     "cateVodName": "/@data-time",
     "cateVodId": "/a[1]/@href",
