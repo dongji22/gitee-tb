@@ -1,7 +1,7 @@
 {
     "author": "dj22.8.25",
     "ua": "",
-    "homeUrl": "https://www.zhibo8.cc/",
+    "homeUrl": "http://www.jrskan.com/",
     //"homeUrl": "http://jrsbxj.com/",
     //"homeUrl": "http://jrsyyds.com/",
     
@@ -25,7 +25,7 @@
     "homeVodMark": "concat(//li[@class='lab_team_home']/strong/text(),'-',//li[@class='lab_team_away']/strong/text(),'-dj')",
 	"home": "dj",
 	// 分类页地址 {cateId} 分类id {catePg} 当前页
-    "cateUrl": "https://www.zhibo8.cc/",
+    "cateUrl": "http://www.jrskan.com/",
 	  // 同上面的homeVod字段 分类列表中的视频信息
 	"cateVodNode": "//ul[@data-stype='zqlq']",
     //"cateVodName": "/li[@class='lab_events']/span/text()",
