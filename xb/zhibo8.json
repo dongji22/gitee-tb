@@ -26,13 +26,13 @@
 	// 分类页地址 {cateId} 分类id {catePg} 当前页
     "cateUrl": "https://www.zhibo8.cc/",
 	// 同上面的homeVod字段 分类列表中的视频信息
-	"cateVodNode": "//li[@id='saishi967097']",
+	"cateVodNode": "//li[@id='saishi958846']",
     //"cateVodName": "/li[@class='lab_events']/span/text()",
-    "cateVodName": "/@data-time",
+    "cateVodName": "@data-time",
     "cateVodId": "/a[1]/@href",
     //"cateVodIdR": "http://play.sportsteam365.com/play/steam(\\d+).html",
 	//"cateVodIdR": "\\S+/(\\d+).html",
-    "cateVodImg": "/img/@src",
+    "cateVodImg": "/img[1]/@src",
     "cateVodMark": "/text()",
 	//"cateVodMark": "{vid}",
 	//"cate": "dj",
