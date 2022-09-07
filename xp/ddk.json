@@ -7,7 +7,7 @@
     "cateManual": {
         "DJ-JRS低调看": "1"
     },
-	
+	/*
 	// 首页推荐视频的节点
     "homeVodNode":"//div [@class='listBox']",
 	// 首页推荐视频的名称
@@ -20,7 +20,7 @@
     "homeVodImg": "/div[@class='myList']/div[@class='team']/p[1]/img/@src",
 	// 首页推荐视频的简介
     "homeVodMark": "",
-	
+	*/
     // 分类页地址 {cateId} 分类id {catePg} 当前页
     "cateUrl": "http://didiaokan2018.com/",
 	  // 同上面的homeVod字段 分类列表中的视频信息
