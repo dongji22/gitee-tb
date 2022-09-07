@@ -2,37 +2,28 @@
     "author": "dj22.9.7",
 
     "homeUrl": "http://didiaokan2018.com/",
-"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
+//"ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
     
     "cateManual": {
-        "DJ-JRS低调看": "1"
+        "DJ-JRS低调看": "666"
     },
-	/*
-	// 首页推荐视频的节点
-    "homeVodNode":"//div [@class='listBox']",
-	// 首页推荐视频的名称
-	"homeVodName":  "concat(/div[@class='myList']/div[@class='timer']/text(),':',/div[@class='myList']/div[@class='matchType']/text())",
-	// 首页推荐视频的id
-    "homeVodId":  "/div[@class='download']/div[@class='status']/a/@href",
-	// 二次处理正则
-    "homeVodIdR": "/live/(\\d+).html",
-	// 首页推荐视频的图片
-    "homeVodImg": "/div[@class='myList']/div[@class='team']/p[1]/img/@src",
-	// 首页推荐视频的简介
-    "homeVodMark": "",
-	*/
-    // 分类页地址 {cateId} 分类id {catePg} 当前页
+
+    // 首页
     "cateUrl": "http://didiaokan2018.com/",
-	  // 同上面的homeVod字段 分类列表中的视频信息
+	// 首页推荐视频的节点
 	"cateVodNode": "//div [@class='listBox']",
+    // 首页推荐视频的名称
     "cateVodName": "concat(/div[@class='myList']/div[@class='timer']/text(),':',/div[@class='myList']/div[@class='matchType']/text())",
+    // 首页推荐视频的id
     "cateVodId": "/div[@class='download']/div[@class='status']/a/@href",
     "cateVodIdR": "/live/(\\d+).html",
+    // 首页推荐视频的图片
     "cateVodImg": "/div[@class='myList']/div[@class='team']/p[1]/img/@src",
+    // 首页推荐视频的简介
     "cateVodMark": "concat(/div[@class='myList']/div[@class='team']/p[1]/text(),'vs',/div[@class='myList']/div[@class='team']/p[3]/text())",
  
 	
-	// 详情页地址 用于获取详情页信息 及 播放列表和地址
+	// 详情页
 	"dtUrl": "http://didiaokan2018.com/live/{vid}.html",
 	// 详情节点
     "dtNode": "//div[@class='msg']",
@@ -40,13 +31,6 @@
     "dtName": "concat(/ul/li[1]/text(),'vs',/ul/li[7]/text())",
 	// 视频图片
     "dtImg": "/ul/li[2]/img/@src",
-	// 视频分类
-    "dtCate": "",
-    //演员
-    "dtActor": "",
-    // 导演
-    "dtDirector": "",
-    "dtDirectorR": "",
     // 视频简介
     "dtDesc": "concat('DJ - ','Never underestimate the heart of a champion! ')",
 	
@@ -54,7 +38,6 @@
     "dtFromNode": "//ul[@class='checkChannel']",
 	// 播放源名称
     "dtFromName":  "concat('【直播源','】')",
-    "dtFromNameR": "",
 	// 播放列表节点
     "dtUrlNode": "//ul[@class='checkChannel']",
 	// 播放地址节点
@@ -65,14 +48,8 @@
 	//"dtUrlIdR": "\\S+/(\\d+)&id2=",
 	// 剧集名称
     "dtUrlName": "/text()",
-    "dtUrlNameR": "",
 	
 	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
     "playUrl":"https://v.stnye.cc/live/{playUrl}"
-    //"playUrl":"http://play.sportsteam666.com/play/{playUrl}",
-    //"playUrl": "http://play.sportsteam365.com/play/{playUrl}",
-    //"playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36", 
-    //"playUa": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36",
-	
 
 }
