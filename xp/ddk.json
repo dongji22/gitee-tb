@@ -33,14 +33,13 @@
 
 	
 	// 详情页地址 用于获取详情页信息 及 播放列表和地址
-    //"dtUrl": "{vid}",
 	"dtUrl": "http://didiaokan2018.com/live/{vid}.html",
 	// 详情节点
     "dtNode": "//div[@class='msg']",
 	// 视频名
     "dtName": "/ul/li[1]/text()",
 	// 视频图片
-    "dtImg": "/li[2]/img/@src",
+    "dtImg": "/ul/li[2]/img/@src",
 	// 视频分类
     "dtCate": "",
     //演员
