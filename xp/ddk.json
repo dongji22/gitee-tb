@@ -11,7 +11,7 @@
 	// 首页推荐视频的节点
     "homeVodNode":"//div [@class='listBox']",
 	// 首页推荐视频的名称
-	"homeVodName":  "concat(/div[@class='myList']/div[@class='timer']/text(),':',/div[@class='myList']/div[@class='matchType']/span/text())",
+	"homeVodName":  "concat(/div[@class='myList']/div[@class='timer']/text(),':',/div[@class='myList']/div[@class='matchType']/text())",
 	// 首页推荐视频的id
     "homeVodId":  "/div[@class='download']/div[@class='status']/a/@href",
 	// 二次处理正则
@@ -25,7 +25,7 @@
     "cateUrl": "http://didiaokan2018.com/",
 	  // 同上面的homeVod字段 分类列表中的视频信息
 	"cateVodNode": "//div [@class='listBox']",
-    "cateVodName": "concat(/div[@class='myList']/div[@class='timer']/text(),':',/div[@class='myList']/div[@class='matchType']/span/text())",
+    "cateVodName": "concat(/div[@class='myList']/div[@class='timer']/text(),':',/div[@class='myList']/div[@class='matchType']/text())",
     "cateVodId": "/div[@class='download']/div[@class='status']/a/@href",
     "cateVodIdR": "/live/(\\d+).html",
     "cateVodImg": "/div[@class='myList']/div[@class='team']/p[1]/img/@src",
@@ -38,7 +38,7 @@
 	// 详情节点
     "dtNode": "//div[@class='msg']",
 	// 视频名
-    "dtName": "/ul/li[4]/text()",
+    "dtName": "/ul/li[1]/text()",
 	// 视频图片
     "dtImg": "/li[2]/img/@src",
 	// 视频分类
@@ -52,24 +52,24 @@
     "dtDesc": "",
 	
 	// 播放源节点
-    "dtFromNode": "//div[@class='channelBox']",
+    "dtFromNode": "//ul[@class='checkChannel']",
 	// 播放源名称
     "dtFromName":  "concat('【直播源','】')",
     "dtFromNameR": "",
 	// 播放列表节点
     "dtUrlNode": "//ul[@class='checkChannel']",
 	// 播放地址节点
-    "dtUrlSubNode": "/li/a[@class='nl']",
+    "dtUrlSubNode": "/li/a",
 	// 播放地址
     "dtUrlId": "@data-play",
-    //"dtUrlIdR": "/play/(\\S+)",
+    "dtUrlIdR": "https://v.stnye.cc/live/(\\S+)",
 	//"dtUrlIdR": "\\S+/(\\d+)&id2=",
 	// 剧集名称
     "dtUrlName": "/text()",
     "dtUrlNameR": "",
 	
 	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-    "playUrl":"{playUrl}"
+    "playUrl":"https://v.stnye.cc/live/{playUrl}"
     //"playUrl":"http://play.sportsteam666.com/play/{playUrl}",
     //"playUrl": "http://play.sportsteam365.com/play/{playUrl}",
     //"playUa": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36", 
