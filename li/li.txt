@@ -27,9 +27,6 @@ imodeTV,http://juyunlive.juyun.tv/live/24950198.m3u8
 清华大学电视台,http://live.cic.tsinghua.edu.cn/hls/tsinghuatv.m3u8
 
 🌳上海,#genre#
-东方卫视[1920*1080],http://117.148.179.160/PLTV/88888888/224/3221231738/1.m3u8
-上海新闻,http://140.207.241.3:8080/live/program/live/xwzhhd/4000000/d1.m3u8?zshangd
-劲爆体育,http://140.207.241.3:8080/live/program/live/jbtyhd/4000000/d1.m3u8?zshangd
 生活时尚,http://183.207.255.188/live/program/live/shsshd/4000000/mnf.m3u8?zshangd
 东方影院,http://183.207.255.188/live/program/live/dsjpdhd/4000000/mnf.m3u8?zshangd
 新视觉体育,http://183.207.255.188/live/program/live/xsjhd/4000000/mnf.m3u8?zshangd
