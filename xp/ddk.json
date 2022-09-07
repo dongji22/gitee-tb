@@ -29,7 +29,7 @@
     "cateVodId": "/div[@class='download']/div[@class='status']/a/@href",
     "cateVodIdR": "/live/(\\d+).html",
     "cateVodImg": "/div[@class='myList']/div[@class='team']/p[1]/img/@src",
-    "cateVodMark": "",
+    "cateVodMark": "/div[@class='myList']/div[@class='team']/text()",
 
 	
 	// 详情页地址 用于获取详情页信息 及 播放列表和地址
@@ -37,7 +37,7 @@
 	// 详情节点
     "dtNode": "//div[@class='msg']",
 	// 视频名
-    "dtName": "/ul/li[1]/text()",
+    "dtName": "concat('/ul/li[1]/text()','VS','/ul/li[7]/text()')",
 	// 视频图片
     "dtImg": "/ul/li[2]/img/@src",
 	// 视频分类
@@ -45,10 +45,10 @@
     //演员
     "dtActor": "",
     // 导演
-    "dtDirector": "concat('DJ - ','Never underestimate the heart of a champion! ')",
+    "dtDirector": "",
     "dtDirectorR": "",
     // 视频简介
-    "dtDesc": "",
+    "dtDesc": "concat('DJ - ','Never underestimate the heart of a champion! ')",
 	
 	// 播放源节点
     "dtFromNode": "//ul[@class='checkChannel']",
