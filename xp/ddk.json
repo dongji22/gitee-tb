@@ -29,15 +29,15 @@
     "cateVodId": "/div[@class='download']/div[@class='status']/a/@href",
     "cateVodIdR": "/live/(\\d+).html",
     "cateVodImg": "/div[@class='myList']/div[@class='team']/p[1]/img/@src",
-    "cateVodMark": "/div[@class='myList']/div[@class='team']/text()",
-
+    "cateVodMark": "concat(/div[@class='myList']/div[@class='team']/p[1]/text(),'vs',/div[@class='myList']/div[@class='team']/p[3]/text())",
+ 
 	
 	// 详情页地址 用于获取详情页信息 及 播放列表和地址
 	"dtUrl": "http://didiaokan2018.com/live/{vid}.html",
 	// 详情节点
     "dtNode": "//div[@class='msg']",
 	// 视频名
-    "dtName": "concat('/ul/li[1]/text()','VS','/ul/li[7]/text()')",
+    "dtName": "concat(/ul/li[1]/text(),'vs',/ul/li[7]/text())",
 	// 视频图片
     "dtImg": "/ul/li[2]/img/@src",
 	// 视频分类
