@@ -60,8 +60,8 @@
 	// 播放地址节点
     "dtUrlSubNode": "/li/a",
 	// 播放地址
-    "dtUrlId": "@data-play",
-    "dtUrlIdR": "https://v.stnye.cc/live/(\\S+)",
+    "dtUrlId": "@data-url",
+    "dtUrlIdR": "https://v.stnye.cc/live/(\\d+)",
 	//"dtUrlIdR": "\\S+/(\\d+)&id2=",
 	// 剧集名称
     "dtUrlName": "/text()",
