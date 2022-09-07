@@ -945,7 +945,7 @@ CCTV-16 奥林匹克,http://39.134.116.30:8080/PLTV/88888888/224/3221226230/inde
 CCTV-16 奥林匹克,http://39.135.138.59:18890/PLTV/88888888/224/3221226233/index.m3u8
 CCTV-16 奥林匹克,http://hwrr.jx.chinamobile.com:8080/PLTV/88888910/224/3221226230/index.m3u8
 
-💞港澳台,#genre#
+💞港澳,#genre#
 凤凰中文,http://play-live.ifeng.com/live/06OLEGEGM4G.m3u8
 凤凰中文,http://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
 凤凰中文,http://playtv-live.ifeng.com/live/06OLEGEGM4G_tv1.m3u8
