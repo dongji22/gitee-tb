@@ -29,7 +29,7 @@
 	// 视频图片
     "dtImg": "/ul/li[2]/img/@src",
     // 视频简介
-    "dtDesc": "concat('DJ - ','Never underestimate the heart of a champion! ')",
+    "dtDesc": "concat('DJ - ','Never underestimate the heart of a champion! ','篮球迷588741862')",
 	
 	// 播放源节点
     "dtFromNode": "//ul[@class='checkChannel']",
@@ -41,13 +41,11 @@
     "dtUrlSubNode": "/li/a[@data-url]",
 	// 播放地址
     "dtUrlId": "@data-url",
-    //"dtUrlIdR": "https://v.stnye.cc/live/(\\d+)",
     "dtUrlIdR": "http(\\S+)",
 	// 剧集名称
     "dtUrlName": "/text()",
 	
 	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-    //"playUrl":"https://v.stnye.cc/live/{playUrl}"
     "playUrl":"http{playUrl}"
 
 }
