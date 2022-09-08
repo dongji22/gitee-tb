@@ -8,7 +8,7 @@
     // 首页
     "cateUrl": "http://jrszx.com/",
 	// 首页推荐视频的节点
-	"cateVodNode": "//div[@class='txtdiv']/parent::*",
+	"cateVodNode": "//div[@class='txtdiv']/parent::li",
     // 首页推荐视频的名称
     "cateVodName": "/div/text()",
     // 首页推荐视频的id
