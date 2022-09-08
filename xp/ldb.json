@@ -36,7 +36,7 @@
 	// 播放列表节点
     "dtUrlNode": "//div[@class='pmain2']/dl/dt",
 	// 播放地址节点
-    "dtUrlSubNode": "/li/a[contains(@href, 'http')",
+    "dtUrlSubNode": "/li/a[contains(@href, 'http')]",
 	// 播放地址
     "dtUrlId": "/@href",
     "dtUrlIdR": "http(\\S+)",
