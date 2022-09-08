@@ -6,7 +6,7 @@
     "cateManual": {"DJ-JRS低调看": "666"},
 
     // 首页
-    "cateUrl": "http://didiaokan2018.com/",
+    "cateUrl": "http://www.jrskanqiu.com/",
 	// 首页推荐视频的节点
 	"cateVodNode": "//div [@class='listBox']",
     // 首页推荐视频的名称
@@ -21,7 +21,7 @@
  
 	
 	// 详情页
-	"dtUrl": "http://didiaokan2018.com/live/{vid}.html",
+	"dtUrl": "http://www.jrskanqiu.com/live/{vid}.html",
 	// 详情节点
     "dtNode": "//div[@class='msg']",
 	// 视频名
@@ -32,7 +32,7 @@
     "dtDesc": "concat('DJ - ','Never underestimate the heart of a champion! ','篮球迷588741862')",
 	
 	// 播放源节点
-    "dtFromNode": "//ul[@class='checkChannel']",
+    //"dtFromNode": "//ul[@class='checkChannel']",
 	// 播放源名称
     "dtFromName":  "concat('【直播源','】')",
 	// 播放列表节点
