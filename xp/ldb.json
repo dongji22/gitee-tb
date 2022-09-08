@@ -21,7 +21,7 @@
  
 	
 	// 详情页
-	"dtUrl": "http://jrszx.com/shipin-{vid}.html",
+	"dtUrl": "http://jrszx.com/vedio/shipin-{vid}.html",
 	// 详情节点
     "dtNode": "//div[@class='pmain2']",
 	// 视频名
