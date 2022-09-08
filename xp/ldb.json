@@ -1,11 +1,6 @@
 {
     "author": "dj22.9.8",
     "homeUrl": "http://jrszx.com/",//http://www.jrszx.com/
-    //"dcVipFlag": "true",
-    //"dcPlayUrl": "true",
-    //"ua":"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
-    //"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.27",
-
     "cateManual": {"DJ-零点吧-体育直播": "666"},
 
     // 首页
@@ -41,7 +36,7 @@
 	// 播放列表节点
     "dtUrlNode": "//div[@class='pmain2']/dl/dt",
 	// 播放地址节点
-    "dtUrlSubNode": "/li/a",
+    "dtUrlSubNode": "/li/a[contains(@href, 'http')",
 	// 播放地址
     "dtUrlId": "/@href",
     "dtUrlIdR": "http(\\S+)",
