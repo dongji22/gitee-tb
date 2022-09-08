@@ -32,9 +32,9 @@
     "dtDesc": "concat('DJ - ','Never underestimate the heart of a champion! ','篮球迷588741862')",
 	
 	// 播放源节点
-    //"dtFromNode": "//ul[@class='checkChannel']",
+    "dtFromNode": "//ul[@class='checkChannel']",
 	// 播放源名称
-    "dtFromName":  "concat('【直播源','】')",
+    "dtFromName":  "'【直播源】'",
 	// 播放列表节点
     "dtUrlNode": "//ul[@class='checkChannel']",
 	// 播放地址节点
