@@ -15,7 +15,7 @@
     "cateVodId": "/a[1]/@href",
     "cateVodIdR": "/shipin-(\\d+).html",
     // 首页推荐视频的图片
-    "cateVodImg": "/a[1]/@src",
+    "cateVodImg": "",
     // 首页推荐视频的简介
     "cateVodMark":"/div/text()",
  
@@ -27,14 +27,14 @@
 	// 视频名
     "dtName": "/h3/text()",
 	// 视频图片
-    "dtImg": "/@src",
+    "dtImg": "",
     // 视频简介
-    "dtDesc": "concat(' DJ - ','Never underestimate the heart of a champion! ','篮球迷588741862')",
+    "dtDesc": "concat(/h3/text(),'     DJ - ','Never underestimate the heart of a champion! ','篮球迷588741862')",
 	
 	// 播放源节点
     "dtFromNode": "//div[@class='pmain2']/dl/dt",
 	// 播放源名称
-    "dtFromName":  "concat('【直播源','】')",
+    "dtFromName":  "'【直播源】')",
 	// 播放列表节点
     "dtUrlNode": "//div[@class='pmain2']/dl/dt",
 	// 播放地址节点
