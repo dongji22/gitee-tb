@@ -15,7 +15,7 @@
     "cateVodId": "/a[1]/@href",
     "cateVodIdR": "/shipin-(\\d+).html",
     // 首页推荐视频的图片
-    "cateVodImg": "",
+    "cateVodImg": "/div/@src",
     // 首页推荐视频的简介
     "cateVodMark":"",
  
