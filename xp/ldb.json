@@ -23,13 +23,13 @@
 	// 详情页
 	"dtUrl": "http://jrszx.com/shipin-{vid}.html",
 	// 详情节点
-    "dtNode": "//div[@class='msg']",
+    "dtNode": "//div[@class='pmain2']",
 	// 视频名
-    "dtName": "concat(/ul/li[1]/text(),'vs',/ul/li[7]/text())",
+    "dtName": "/h3/text()",
 	// 视频图片
-    "dtImg": "/ul/li[2]/img/@src",
+    "dtImg": "/@src",
     // 视频简介
-    "dtDesc": "concat('DJ - ','Never underestimate the heart of a champion! ','篮球迷588741862')",
+    "dtDesc": "concat(/h5/text(),'。 DJ - ','Never underestimate the heart of a champion! ','篮球迷588741862')",
 	
 	// 播放源节点
     "dtFromNode": "//div[@class='pmain2']/dl/dt",
