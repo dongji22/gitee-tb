@@ -1,5 +1,5 @@
 {
-    "author": "dj22.9.7",
+    "author": "dj22.9.8",
     "homeUrl": "http://jrszx.com/",//http://www.jrszx.com/
     //"ua":"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
 
@@ -17,7 +17,7 @@
     // 首页推荐视频的图片
     //"cateVodImg": "/div[@class='myList']/div[@class='team']/p[1]/img/@src",
     // 首页推荐视频的简介
-    //"cateVodMark": "concat(/div[@class='myList']/div[@class='team']/p[1]/text(),'vs',/div[@class='myList']/div[@class='team']/p[3]/text())",
+    "cateVodMark":"/div/text()",
  
 	
 	// 详情页
