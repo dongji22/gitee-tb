@@ -29,7 +29,7 @@
 	// 视频图片
     "dtImg": "/@src",
     // 视频简介
-    "dtDesc": "concat(/h5/text(),'。 DJ - ','Never underestimate the heart of a champion! ','篮球迷588741862')",
+    "dtDesc": "concat(' DJ - ','Never underestimate the heart of a champion! ','篮球迷588741862')",
 	
 	// 播放源节点
     "dtFromNode": "//div[@class='pmain2']/dl/dt",
@@ -38,12 +38,12 @@
 	// 播放列表节点
     "dtUrlNode": "//div[@class='pmain2']/dl/dt",
 	// 播放地址节点
-    "dtUrlSubNode": "/li/a[@rel='nofollow']",
+    "dtUrlSubNode": "/li/a",
 	// 播放地址
     "dtUrlId": "/@href",
     "dtUrlIdR": "http(\\S+)",
 	// 剧集名称
-    "dtUrlName": "/text()",
+    "dtUrlName": "/span/text()",
 	
 	//播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
     "playUrl":"http{playUrl}"
