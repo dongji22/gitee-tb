@@ -15,7 +15,7 @@
     "cateVodId": "/a[1]/@href",
     "cateVodIdR": "/shipin-(\\d+).html",
     // 首页推荐视频的图片
-    "cateVodImg": "",
+    "cateVodImg": "/a[1]/@src",
     // 首页推荐视频的简介
     "cateVodMark":"/div/text()",
  
@@ -27,7 +27,7 @@
 	// 视频名
     "dtName": "/h3/text()",
 	// 视频图片
-    "dtImg": "",
+    "dtImg": "/@src",
     // 视频简介
     "dtDesc": "concat(/h3/text(),'     DJ - ','Never underestimate the heart of a champion! ','篮球迷588741862')",
 	
