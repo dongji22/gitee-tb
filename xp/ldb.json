@@ -29,7 +29,7 @@
 	// 视频图片
     "dtImg": "/@src",
     // 视频简介
-    "dtDesc": "concat(/h3/text(),'     DJ - ','Never underestimate the heart of a champion! ','篮球迷588741862')",
+    "dtDesc": "concat('DJ - ','Never underestimate the heart of a champion! ','篮球迷588741862')",
 	
 	// 播放源节点
     "dtFromNode": "//div[@class='pmain2']/dl/dt",
