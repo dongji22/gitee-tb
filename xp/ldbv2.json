@@ -11,8 +11,8 @@
     // 首页推荐视频的名称
     "cateVodName": "/div[1]/text()",
     // 首页推荐视频的id
-    "cateVodId": "/@ondblclick",
-    "cateVodIdR": "loadsc((\\d+))",
+    "cateVodId": "/div[2]/a[last()]/@href",
+    "cateVodIdR": "http(\\S+)",
     // 首页推荐视频的图片
     "cateVodImg": "'http://ys-f.ysepan.com/621545016/119101634/h485U2V3523QLJkfsqlj8a/%E5%B0%81%E9%9D%A2.jpg'",
     // 首页推荐视频的简介
@@ -20,7 +20,7 @@
  
 	
 	// 详情页
-	"dtUrl": "http://jrszx.com/vedio/shipin-{vid}.html",
+	"dtUrl": "http{vid}",
 	// 详情节点
     "dtNode": "//div[@class='pmain2']",
 	// 视频名
