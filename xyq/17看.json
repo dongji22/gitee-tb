@@ -36,7 +36,8 @@
     //分类数组截取后
     "cat_arr_suf": "data-role=\"footer",
     //分类截取片单图片，截取前缀&&截取后缀
-    "cat_pic": "https://img95.699pic.com/element/40128/9012.png_860.png",
+    //"cat_pic": "https://img95.699pic.com/element/40128/9012.png_860.png",
+    "cat_pic": "'http://ys-f.ysepan.com/621545016/119101634/h485U2V3523QLJkfsqlj8a/%E5%B0%81%E9%9D%A2.jpg'",
     //分类截取片单标题，截取前缀&&截取后缀
     "cat_title": "class=\"link\">&&<a",
     //分类截取片单副标题，截取前缀&&截取后缀
