@@ -10,7 +10,7 @@
     // 首页推荐视频的名称
     "cateVodName": "/@l",//concat(/li[1]/text(),/li[2]/a/text(),/li[2]/span/text())
     // 首页推荐视频的id
-    "cateVodId": "/@c",
+    "cateVodId": "/li[last()]/a/@href",
     "cateVodIdR": "",
     // 首页推荐视频的图片
     "cateVodImg": "'http://ys-f.ysepan.com/621545016/119101634/h485U2V3523QLJkfsqlj8a/%E5%B0%81%E9%9D%A2.jpg'",
