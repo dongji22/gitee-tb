@@ -22,9 +22,9 @@
 	// 详情页
 	"dtUrl": "http{vid}",
 	// 详情节点
-    "dtNode": "//div[@class='pmain2']",
+    "dtNode": "//head",
 	// 视频名
-    "dtName": "/h3/text()",
+    "dtName": "/title/text()",
 	// 视频图片
     "dtImg": "'http://ys-f.ysepan.com/621545016/119101634/h485U2V3523QLJkfsqlj8a/%E5%B0%81%E9%9D%A2.jpg'",
     // 视频简介
@@ -33,7 +33,7 @@
 	// 播放源节点
     "dtFromNode": "//body",
 	// 播放源名称
-    "dtFromName":  "'【直播源】')",
+    "dtFromName":  "'【直播源】'",
 	// 播放列表节点
     "dtUrlNode": "//div[@class='pmain2']/dl/dt",
 	// 播放地址节点
