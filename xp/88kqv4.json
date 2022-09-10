@@ -29,7 +29,7 @@
 	// 播放源节点
     "dtFromNode": "//body",
 	// 播放源名称
-    "dtFromName":  "'【直播源】')",
+    "dtFromName":  "'【直播源】'",
 	// 播放列表节点
     "dtUrlNode": "//div[@class='game-videos-btn-container']",
 	// 播放地址节点
