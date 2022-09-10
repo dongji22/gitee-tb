@@ -9,7 +9,7 @@
 	// 首页推荐视频的节点
 	"cateVodNode": "//li[@ondblclick]",
     // 首页推荐视频的名称
-    "cateVodName": "/div[1]/text()",
+    "cateVodName": "concat(/div[1]/span[1]/text(),/div[1]/span[2]/text())",
     // 首页推荐视频的id
     "cateVodId": "/div[2]/a[last()]/@href",
     "cateVodIdR": "http(\\S+)",
