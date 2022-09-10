@@ -6,11 +6,11 @@
     // 首页
     "cateUrl": "https://www.yoozhibo.com/",
 	// 首页推荐视频的节点
-	"cateVodNode": "//div[@class='category main']/parent::div/div[3]/div[2]/ul",
+	"cateVodNode": "//ul[contains(@class,'item cd')]",
     // 首页推荐视频的名称
-    "cateVodName": "/li[6]/a/@href",//concat(/li[1]/text(),/li[2]/a/text(),/li[2]/span/text())
+    "cateVodName": "/@l",//concat(/li[1]/text(),/li[2]/a/text(),/li[2]/span/text())
     // 首页推荐视频的id
-    "cateVodId": "/li[6]/a/@href",
+    "cateVodId": "/@c",
     "cateVodIdR": "",
     // 首页推荐视频的图片
     "cateVodImg": "'http://ys-f.ysepan.com/621545016/119101634/h485U2V3523QLJkfsqlj8a/%E5%B0%81%E9%9D%A2.jpg'",
