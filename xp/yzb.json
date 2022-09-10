@@ -8,7 +8,7 @@
 	// 首页推荐视频的节点
 	"cateVodNode": "//ul[contains(@class,'item cd')]",
     // 首页推荐视频的名称
-    "cateVodName": "//concat(/li[1]/text(),/@l",//concat(/li[1]/text(),/li[2]/a/text(),/li[2]/span/text())
+    "cateVodName": "//concat(/li[1]/text(),/@l)",//concat(/li[1]/text(),/li[2]/a/text(),/li[2]/span/text())
     // 首页推荐视频的id
     "cateVodId": "/li[last()]/a/@href",
     "cateVodIdR": "",
