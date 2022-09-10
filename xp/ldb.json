@@ -1,10 +1,10 @@
 {
     "author": "dj22.9.8",
-    "homeUrl": "http://jrszx.com/",//http://www.jrszx.com/
+    "homeUrl": "http://www.uusnba.com/",//http://www.jrszx.com/
     "cateManual": {"DJ-零点吧-体育直播": "666"},
 
     // 首页
-    "cateUrl": "http://jrszx.com/",
+    "cateUrl": "http://www.uusnba.com/",
 	// 首页推荐视频的节点
 	"cateVodNode": "//div[@class='txtdiv']/parent::li",
     // 首页推荐视频的名称
@@ -19,7 +19,7 @@
  
 	
 	// 详情页
-	"dtUrl": "http://jrszx.com/vedio/shipin-{vid}.html",
+	"dtUrl": "http://www.uusnba.com/vedio/shipin-{vid}.html",
 	// 详情节点
     "dtNode": "//div[@class='pmain2']",
 	// 视频名
