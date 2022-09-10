@@ -6,7 +6,7 @@
     // 首页
     "cateUrl": "https://www.yoozhibo.com/",
 	// 首页推荐视频的节点
-	"cateVodNode": "//ul[contains(@class,'item cd')]",
+	"cateVodNode": "//ul[contains(@class,'item cd') and position()<2]",
     // 首页推荐视频的名称
     "cateVodName": "/li[1]/text()",//concat(/li[1]/text(),/li[2]/a/text(),/li[2]/span/text())
     // 首页推荐视频的id
