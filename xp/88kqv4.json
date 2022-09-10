@@ -13,40 +13,7 @@
 "cateVodIdR": "/live/(\\d+)/play",
 "cateVodImg": "/div[4]/img/@src",
 "cateVodImgR": "\\S+(http\\S+)",
-"cateVodMark": "concat(/div[contains(@class,'category-game-time')]/text(),'-',/div[contains(@class,'pay-btn')]/a/text(),'-dj')",
-
-/*
-"dtUrl": "http://www.88kanqiu.cc/live/{vid}/play",
-"dtNode": "//body",
-"dtName": "",
-"dtNameR": "",
-"dtImg": "",
-"dtImgR": "",
-"dtCate": "",
-"dtActor": "",
-"dtArea": "",
-"dtDesc": "",
-
-"dtFromNode": "",
-"dtFromName": "concat('【直播源','】')",
-"dtFromNameR": "",
-
-"dtUrlNode": "//div[@class='game-videos-btn-container']",
-"dtUrlSubNode": "//a[@rel='nofollow']",
-"dtUrlId": "/@href",
-"dtUrlIdR": "",
-"dtUrlName": "/text()",
-"dtUrlNameR": "",
-"playUrl": "http://www.88kanqiu.cc{playUrl}",
-"playUa": "",
-"searchUrl": "",
-"scVodNode": "",
-"scVodName": "",
-"scVodId": "",
-"scVodIdR": "",
-"scVodImg": "",
-"scVodMark": ""
-*/
+"cateVodMark": "concat(/div[contains(@class,'category-game-time')]/text(),'-',/div[contains(@class,'pay-btn')]/a/text())",
 
 	// 详情页
 	"dtUrl": "http://www.88kanqiu.cc/live/{vid}/play",
