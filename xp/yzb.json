@@ -8,14 +8,14 @@
 	// 首页推荐视频的节点
 	"cateVodNode": "//ul[contains(@class,'item cd')]",
     // 首页推荐视频的名称
-    "cateVodName": "concat(/li[1]/text(),/@l)",//concat(/li[1]/text(),/li[2]/a/text(),/li[2]/span/text())
+    "cateVodName": "concat(/li[@class='time']/text(),/@l,/li[@class='league']/span/text())",//concat(/li[1]/text(),/li[2]/a/text(),/li[2]/span/text())
     // 首页推荐视频的id
     "cateVodId": "/li[last()]/a/@href",
     "cateVodIdR": "",
     // 首页推荐视频的图片
     "cateVodImg": "'http://ys-f.ysepan.com/621545016/119101634/h485U2V3523QLJkfsqlj8a/%E5%B0%81%E9%9D%A2.jpg'",
     // 首页推荐视频的简介
-    "cateVodMark":"concat(/li[@class='team ht']/strong/text(),/li[@class='team ht']/strong/a/text(),'vs',/li[@class='team gt']/strong/text())",//concat(/li[3]/strong/text(),'vs',/li[5]/strong/text())
+    "cateVodMark":"concat(/li[@class='team ht']/strong/text(),/li[@class='team ht']/strong/a/text(),'-',/li[@class='team gt']/strong/text(),/li[@class='team gt']/strong/a/text())",//concat(/li[3]/strong/text(),'vs',/li[5]/strong/text())
  
 	
 	// 详情页
