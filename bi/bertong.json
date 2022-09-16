@@ -1,12 +1,15 @@
 {
 	"classes": [
 	
-  {"type_name": "朵朵儿童舞蹈秀","type_id": "朵朵儿童舞蹈秀"},
-{"type_name": "儿童舞蹈","type_id": "儿童舞蹈"},
-{"type_name": "儿童英语启蒙","type_id": "儿童舞蹈"},
-{"type_name": "SuSan教英语","type_id": "SuSan教英语"},
+
 
   {"type_name": "儿童纪录片","type_id": "儿童纪录片"},
+
+    
+{"type_name": "儿童舞蹈","type_id": "儿童舞蹈"},
+{"type_name": "朵朵儿童舞蹈秀","type_id": "朵朵儿童舞蹈秀"},
+{"type_name": "儿童英语","type_id": "儿童英语"},
+{"type_name": "SuSan教英语","type_id": "SuSan教英语"},
 		{
 			"type_name": "儿童早教",
 			"type_id": "儿童早教"
