@@ -1,11 +1,6 @@
 {
 "classes": [
 
-{"type_name": "儿童纪录片","type_id": "儿童纪录片"},
-{"type_name": "最新歌曲","type_id": "最新歌曲"},
-{"type_name": "高清演唱会","type_id": "高清演唱会"},
-{"type_name": "mv合集","type_id": "mv合集"},
-
 
 {"type_name": "运动","type_id": "运动"},
 {"type_name": "瑜伽","type_id": "瑜伽"},
@@ -14,19 +9,6 @@
 {"type_name": "旅游","type_id": "旅游"},
 {"type_name": "电影","type_id": "电影"},
 
-{
-"type_name": "头痛音乐",
-"type_id": "头痛音乐"
-},
-{"type_name": "苏见信","type_id": "苏见信"},
-{
-"type_name": "王心凌",
-"type_id": "王心凌"
-},
-{
-"type_name": "薛之谦",
-"type_id": "薛之谦"
-},
 {
 "type_name": "评测",
 "type_id": "评测"
