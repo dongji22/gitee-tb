@@ -1,27 +1,27 @@
 😎常用,#genre#
-上海新闻,http://140.207.241.3:8080/live/program/live/xwzhhd/2300000/d1.m3u8?
+上海新闻,http://140.207.241.3:8080/live/program/live/xwzhhd/2300000/d1.m3u8
 上海新闻,http://111.40.196.36/wh7f454c46tw3313992406_1474476423/PLTV/88888888/224/3221225499/index.m3u8
-上海新闻,http://111.40.196.36/PLTV/88888888/224/3221225499/index.m3u8?$移动标清540P
-东方卫视,http://117.148.179.160/PLTV/88888888/224/3221231738/1.m3u8
+上海新闻,http://111.40.196.36/PLTV/88888888/224/3221225499/index.m3u8
 东方卫视,http://117.148.179.160/PLTV/88888888/224/3221231738/1.m3u8
 东方卫视,http://39.134.65.179/PLTV/88888888/224/3221225672/index.m3u8
 东方卫视,http://39.134.65.164/PLTV/88888888/224/3221225672/index.m3u8
 东方卫视,http://39.134.65.173/PLTV/88888888/224/3221225672/index.m3u8
 东方卫视,http://39.134.65.173/PLTV/88888888/224/3221225865/index.m3u8
 东方卫视,http://39.134.65.175/PLTV/88888888/224/3221225672/index.m3u8
-体育直播,https://clive.dianshunxinxi.com:4430/live/ballbar_29070.m3u8
 五星体育,http://112.25.48.69/live/program/live/ssty/4000000/mnf.m3u8
 五星体育,http://111.40.196.25/PLTV/88888888/224/3221225503/index.m3u8
 五星体育,http://shbu.live.bestvcdn.com.cn:8080/live/program/live/ssty/2300000/mnf.m3u8
 劲爆体育,http://shbu.live.bestvcdn.com.cn:8080/live/program/live/jbtyhd/2300000/mnf.m3u8
 劲爆体育,http://111.40.196.9/PLTV/88888888/224/3221225505/index.m3u8
-CCTV5,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
 CCTV5,http://39.135.138.58:18890/PLTV/88888888/224/3221225751/index.m3u8
 CCTV5,http://39.134.67.226/PLTV/88888888/224/3221225818/index.m3u8
 CCTV5,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8
 CCTV5+,http://39.134.65.175/PLTV/88888888/224/3221225507/index.m3u8
 CCTV5+,http://39.134.115.163:8080/PLTV/88888910/224/3221225649/index.m3u8
-CCTV-14少儿,http://39.134.66.66/PLTV/88888888/224/3221225674/index.m3u8
+CCTV1,http://39.134.67.7:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
+CCTV3,http://39.134.67.6:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8
+CCTV3,http://111.63.117.13:6060/030000001000/CCTV-3/CCTV-3.m3u8
+CCTV14,http://39.134.66.66/PLTV/88888888/224/3221225674/index.m3u8
 音乐小石榴,http://txtest-xp2p.p2p.huya.com/src/1199512344405-1199512344405-5224693802798678016-2399024812266-10057-A-0-1.xs
 法国时尚,http://lb.streaming.sk/fashiontv/stream/chunklist.m3u8
 法国时尚,http://lb.streaming.sk/fashiontv/stream/chunklist_w1702070444.m3u8
@@ -61,16 +61,6 @@ imodeTV,http://juyunlive.juyun.tv/live/24950198.m3u8
 浦东电视台,https://pdtvlive.pudongtv.cn/live/pdtv.m3u8?txSecret=2c2c21f242e88c17cb02dfbe3671fa5c&txTime=63AFCDEA?zshangd
 
 💘中央,#genre#
-CCTV1[1920*1080],http://39.134.67.7:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
-CCTV3[1920*1080],http://39.134.67.6:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8
-CCTV4K[1920*1080],http://live.aikan.miguvideo.com/PLTV/88888888/224/3221233400/1.m3u8
-CCTV8K[1920*1080],http://live.aikan.miguvideo.com/PLTV/88888888/224/3221233350/1.m3u8
-CCTV8K[1920*1080],http://live.aikan.miguvideo.com/PLTV/88888888/224/3221233404/1.m3u8
-CCTV8K[1920*1080],http://live.aikan.miguvideo.com/PLTV/88888888/224/3221233413/1.m3u8
-CCTV4K[1920*1080],http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
-CCTV16[1920*1080],http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8
-CCTV3[1920*1080],http://111.63.117.13:6060/030000001000/CCTV-3/CCTV-3.m3u8
-CCTV5[1920*1080],http://111.63.117.13:6060/030000001000/CCTV-5/CCTV-5.m3u8
 CCTV-1 综合,http://cache.ott.fifalive.itv.cmvideo.cn:80/1000000001000021973/1.m3u8?Contentid=1000000001000021973&livemode=1&stbId=3&channel-id=ystenlive$易视腾
 CCTV-1 综合,http://111.40.196.25/PLTV/88888888/224/3221225548/index.m3u8
 CCTV-1 综合,http://39.134.65.141/PLTV/88888888/224/3221225816/1.m3u8
@@ -393,6 +383,7 @@ CCTV-16 奥林匹克,http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8
 CCTV-16 奥林匹克,http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8
 CCTV-16 奥林匹克,http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8?$全网蓝光1080P
 CCTV-16 奥林匹克,http://39.135.138.58:18890/PLTV/88888888/224/3221226233/index.m3u8?$移动蓝光1080P
+CCTV-16 奥林匹克,http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8
 
 CCTV-17 农业农村,http://cache.ott.fifalive.itv.cmvideo.cn:80/1000000005000056836/1.m3u8?Contentid=1000000005000056836&livemode=1&stbId=3&channel-id=ystenlive$易视腾
 CCTV-17 农业农村,http://111.20.33.93/PLTV/88888893/224/3221226198/index.m3u8
@@ -408,6 +399,13 @@ CCTV-17 农业农村,http://39.135.138.58:18890/PLTV/88888888/224/3221225907/ind
 CCTV-17 农业农村,http://39.135.138.58:18890/PLTV/88888888/224/3221225908/index.m3u8
 CCTV-17 农业农村,http://39.135.138.58:18890/PLTV/88888888/224/3221225909/index.m3u8
 CCTV-17 农业农村,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225910/index.m3u8?fmt=ts2hls
+
+CCTV4K,http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
+CCTV4K,http://live.aikan.miguvideo.com/PLTV/88888888/224/3221233400/1.m3u8
+CCTV8K,http://live.aikan.miguvideo.com/PLTV/88888888/224/3221233350/1.m3u8
+CCTV8K,http://live.aikan.miguvideo.com/PLTV/88888888/224/3221233404/1.m3u8
+CCTV8K,http://live.aikan.miguvideo.com/PLTV/88888888/224/3221233413/1.m3u8
+
 中国教育1,http://txycsbl.centv.cn/zb/0628cetv1.m3u8
 中国教育1,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225661/index.m3u8
 中国教育1,http://39.134.66.66/PLTV/88888888/224/3221225563/index.m3u8
